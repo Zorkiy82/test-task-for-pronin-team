@@ -1,0 +1,8 @@
+.husky/pre-commit
+.gitignore
+.prettierignore
+.editorconfig
+*.ico
+.gitkeep
+*.png
+*.svg
