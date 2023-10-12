@@ -1,10 +1,23 @@
 import React from 'react';
+import TriggerBar from './components/trigger-bar/trigger-bar';
+import styles from './App.module.css';
 
 function App() {
   return (
-    <div>
-      <p>Hello World</p>
-    </div>
+    <main>
+      <div className={styles.main_container}>
+        <TriggerBar>
+          <p>first</p>
+          <p>second</p>
+          <p>333333</p>
+        </TriggerBar>
+        <TriggerBar>
+          <p>first</p>
+          <p>second</p>
+          <p>333333</p>
+        </TriggerBar>
+      </div>
+    </main>
   );
 }
 
