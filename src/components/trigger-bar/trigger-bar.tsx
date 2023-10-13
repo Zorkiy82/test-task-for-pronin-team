@@ -2,19 +2,13 @@ import React, { FC } from 'react';
 import styles from './trigger-bar.module.css';
 
 type TTrigerBar = {
-  children?: React.ReactNode[];
+  children?: React.ReactNode[] | React.ReactNode;
 };
 
-const TriggerBar: FC<TTrigerBar> = ({
-  children = [<div>+default</div>, <div>default-</div>],
-  ...props
-}) => {
-  const [trig, ...rest] = [...children];
+const TriggerBar: FC<TTrigerBar> = ({ children, ...props }) => {
   return (
     <div {...props} className={styles.container}>
-      {trig}
-
-      {rest}
+      {children}
     </div>
   );
 };

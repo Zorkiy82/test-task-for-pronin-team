@@ -1,0 +1,40 @@
+.triggerContainer {
+  border: 1px solid green;
+  width: max-content;
+}
+
+.triggerContainer:hover {
+  cursor: pointer;
+}
+
+.dropdownMenuContainer {
+  position: absolute;
+  z-index: 10;
+  width: max-content;
+  max-width: 260px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 10px;
+  border: 1px dashed grey;
+  background-color: white;
+}
+
+.menuItem {
+  display: block;
+  overflow: hidden;
+}
+
+.menuItem:hover {
+  background-color: lightgray;
+}
+
+.dropdownOverlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: transparent;
+}
