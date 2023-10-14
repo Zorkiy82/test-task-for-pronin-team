@@ -1,5 +1,8 @@
+.commonContainer {
+  position: relative;
+}
+
 .triggerContainer {
-  border: 1px solid green;
   width: max-content;
 }
 
@@ -9,7 +12,10 @@
 
 .dropdownMenuContainer {
   position: absolute;
-  z-index: 10;
+  z-index: 910;
+}
+
+.dropdownMenu {
   width: max-content;
   max-width: 260px;
   box-sizing: border-box;
@@ -17,13 +23,38 @@
   flex-direction: column;
   gap: 5px;
   padding: 10px;
-  border: 1px dashed grey;
   background-color: white;
+  box-shadow: 0 6px 16px 0 rgba(21, 18, 51, 0.08);
+  border-radius: 5px;
+}
+.aligne_left {
+  left: 0;
+  bottom: 0;
+  transform: translate(0, calc(100% + 5px));
+}
+
+.aligne_right {
+  right: 0;
+  bottom: 0;
+  transform: translate(0, calc(100% + 5px));
+}
+
+.aligne_left_up {
+  left: 0;
+  top: 0;
+  transform: translate(0, calc(-100% - 5px));
+}
+
+.aligne_right_up {
+  right: 0;
+  top: 0;
+  transform: translate(0, calc(-100% - 5px));
 }
 
 .menuItem {
   display: block;
   overflow: hidden;
+  border-radius: 3px;
 }
 
 .menuItem:hover {
@@ -37,4 +68,5 @@
   left: 0;
   right: 0;
   background-color: transparent;
+  z-index: 900;
 }

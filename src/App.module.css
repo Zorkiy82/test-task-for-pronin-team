@@ -5,3 +5,33 @@
   flex-direction: column;
   justify-content: space-between;
 }
+
+.counter {
+  position: absolute;
+  top: 16%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  font-size: 90px;
+  font-weight: bolder;
+  color: tomato;
+}
+
+.trigger {
+  font-size: 30px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.trigger_s {
+  width: 50px;
+  height: 50px;
+}
+.trigger_l {
+  width: 100px;
+  height: 100px;
+}
+
+.trigger_xl {
+  width: 150px;
+  height: 150px;
+}

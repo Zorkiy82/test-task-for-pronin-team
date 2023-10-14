@@ -1,0 +1,21 @@
+.container {
+  box-sizing: border-box;
+  padding: 2px;
+  max-width: 240px;
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.text {
+  font-weight: 600;
+  max-width: 201px;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+}
