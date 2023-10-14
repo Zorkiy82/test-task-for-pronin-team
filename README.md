@@ -1,4 +1,14 @@
 # test-task-for-the-pronin-team
+Тестовое задание для ProninTeam
+
+# Как запустить проект?
+git clone git@github.com:Zorkiy82/card-list-test-work.git
+
+npm install
+
+npm run start
+
+# Описание
 
 С помощью TypeScript и библиотеки React (Next, CRA, Vite - по вашему желанию, что больше нравится) реализуйте компонент DropdownMenu. Используйте только функциональные компоненты. В проекте настройте code и style линтинг с помощью eslint и prettier.
 
