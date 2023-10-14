@@ -2,7 +2,7 @@
 Тестовое задание для ProninTeam
 
 # Как запустить проект?
-git clone git@github.com:Zorkiy82/card-list-test-work.git
+git clone git@github.com:Zorkiy82/test-task-for-pronin-team.git
 
 npm install
 
