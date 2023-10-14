@@ -6,7 +6,7 @@ git clone git@github.com:Zorkiy82/test-task-for-pronin-team.git
 
 npm install
 
-npm run start
+npm start
 
 # Описание
 
